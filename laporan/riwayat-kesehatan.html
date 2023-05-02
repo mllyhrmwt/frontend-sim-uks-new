@@ -1,0 +1,320 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Wikrama Sehat</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/lineicons.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/default.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--====== HEADER ======-->
+
+    <header class="header-area">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="beranda.html">
+                                <img src="../assets/images/logo-uks.png" alt="Logo" width="50" height="45">
+                                <img src="../assets/images/logo-wikrama.png" alt="Logo" width="50" height="50">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="../beranda.html">Beranda</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="../tentang.html">Tentang</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll">Program</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="./pelayanan-kesehatan.html">Pelayanan Kesehatan</a></li>
+                                            <li><a href="#">Pendidikan Kesehatan</a>
+                                                <ul>
+                                                    <li><a href="./makanan-gizi-seimbang.html">Makanan Gizi Seimbang</a></li>
+                                                    <li><a href="./program/menstruasi.html">Menstruasi</a></li> 
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll">Informasi</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="../informasi/berita.html">Berita</a></li>
+                                            <li><a href="../informasi/agenda.html">Agenda</a></li>
+                                            <li><a href="../informasi/grafik-siswa.html">Grafik Siswa</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll active">Laporan</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="../laporan/form-gizi-seimbang.html">Form Gizi Seimbang</a></li>
+                                            <li><a href="../laporan/form-menstruasi.html">Form Menstruasi</a></li>
+                                            <li><a href="../laporan/form-pengukuran.html">Form Pengukuran</a></li>
+                                            <li><a href="../laporan/riwayat-kesehatan.html">Riwayat Kesehatan</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div id="home" class="header-hero-layout bg_cover d-lg-flex align-items-center">
+            <div class="">
+                <img src="../assets/images/content-smk.png" width="100%" height="100%">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-lg-6 col-md-10">
+                    <div class="header-hero-content">
+                        <h3 class="header-title-layout">Riwayat Kesehatan</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+      <center>
+        <div class="container">
+            <div class="card">
+              <form class="card-form">
+                <h4 class="text-center">Form Gizi Seimbang</h4>
+                <div class="input">
+                  <input type="date" required/><br>
+                  <label class="input-label">Tanggal</label>
+                </div>
+                <div class="input">
+                  <select name="kalsium" id="kalsium">
+                    <option value="ikan sarden">Ikan Sarden</option>
+                    <option value="jeruk">Jeruk</option>
+                    <option value="alpukat">Alpukat</option>
+                    <option value="biskuit">Biskuit</option>
+                    <option value="edamame">Edamame</option>
+                    <option value="selada">Selada</option>
+                    <option value="susu kedelai">Susu Kedelai</option>
+                    <option value="lainnya">Lainnya</option>
+                  </select><br>
+                  <label class="input-label">Kalsium</label>
+                </div>
+                <div class="input">
+                  <select name="karbohidrat" id="karbohidrat">
+                    <option value="ubi jalar">Ubi Jalar</option>
+                    <option value="jagung">Jagung</option>
+                    <option value="nasi merah">Nasi Merah</option>
+                    <option value="oat">Oat</option>
+                    <option value="pisang">Pisang</option>
+                    <option value="kismis">Kismis</option>
+                    <option value="kacang merah">Kacang Merah</option>
+                    <option value="lainnya">Lainnya</option>
+                  </select><br>
+                  <label class="input-label">Karbohidrat</label>
+                </div>
+                <div class="input">
+                  <select name="protein" id="protein">
+                    <option value="bayam">Bayam</option>
+                    <option value="tahu">Tahu</option>
+                    <option value="tempe">Tempe</option>
+                    <option value="edamame">Edamame</option>
+                    <option value="buncis">Buncis</option>
+                    <option value="kacang polong">Selada</option>
+                    <option value="jagung">Jagung</option>
+                    <option value="lainnya">Lainnya</option>
+                  </select><br>
+                  <label class="input-label">Protein Nabati</label>
+                </div>
+                <div class="input">
+                  <select name="protein" id="protein">
+                    <option value="telur">Telur</option>
+                    <option value="daging ayam">Daging Ayam</option>
+                    <option value="daging sapi">Daging Sapi</option>
+                    <option value="ikan">Ikan</option>
+                    <option value="udang">Udang</option>
+                    <option value="susu">Susu</option>
+                    <option value="keju">Keju</option>
+                    <option value="lainnya">Lainnya</option>
+                  </select><br>
+                  <label class="input-label">Protein Hewani</label>
+                </div>
+                <div class="input">
+                  <select name="vitamin" id="vitamin">
+                    <option value="telur">Telur</option>
+                    <option value="tahu">Tahu</option>
+                    <option value="tempe">Tempe</option>
+                    <option value="kacang tanah">Kacang Tanah</option>
+                    <option value="wortel">Wortel</option>
+                    <option value="kentang">Kentang</option>
+                    <option value="pisang">Pisang</option>
+                    <option value="lainnya">Lainnya</option>
+                  </select><br>
+                  <label class="input-label">Vitamin</label>
+                </div>
+                <div class="action">
+                  <center>
+                    <button class="action-button">Kirim</button><br><br>
+                  </center>
+                </div>
+              </form>
+              </div>
+          </div>
+        </div>
+      </center>
+      <br><br>
+    
+    <!--====== FOOTER ======-->
+    
+    <footer id="footer" class="footer-area">
+        <div class="footer-widget pt-30 pb-80 bg-success">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 bg-green">
+                        <div class="footer-about mt-50 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                            <a class="logo" href="#" >
+                                <img src="../assets/images/logo-uks.png" alt="Logo" width="50" height="45">
+                                <img src="../assets/images/logo-wikrama.png" alt="Logo" width="50" height="50">
+                            </a>
+                            <p class="text text-white text-justify">SMK Wikrama Bogor merupakan smk unggulan yang menghasilkan siswa/siswi berprestasi serta menjadikan sebagai lulusan terbaik yang siap menghadapi dunia kerja.</p>
+                            <ul class="social i-white">
+                                <li><a href="https://smkwikrama.sch.id"><i class="lni lni-envelope text-white"></i></a></li>
+                                <li><a href="https://www.facebook.com/smkwikrama/?locale=id_ID"><i class="lni lni-facebook text-white"></i></a></li>
+                                <li><a href="https://www.instagram.com/smkwikrama/"><i class="lni lni-instagram text-white"></i></a></li>
+                                <li><a href="https://www.linkedin.com/school/smkwikramabogor/mycompany/"><i class="lni lni-linkedin text-white"></i></a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-link d-flex flex-wrap">
+                            <div class="footer-link-wrapper mt-45 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                <div class="footer-title">
+                                    <h4 class="title text-white">Lokasi</h4>
+                                </div>
+                                <br>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.322974341954!2d106.84123607453698!3d-6.644947764958255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c89505b4c37d%3A0x307fc4a38e65fa2b!2sSMK%20Wikrama%20Bogor!5e1!3m2!1sid!2sid!4v1682793215538!5m2!1sid!2sid" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-contact mt-45 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                            <div class="footer-title">
+                                <h4 class="title text-white">Kontak</h4>
+                            </div>
+                            <ul class="contact-list">
+                                <li>
+                                    <div class="contact-info d-flex">
+                                        <div class="info-content media-body">
+                                            <p class="text text-white"><i class="lni lni-phone text-white"></i> 0251-8242411</p>
+                                        </div>
+                                    </div> 
+                                </li>
+                                <li>
+                                    <div class="contact-info d-flex">
+                                        <div class="info-content media-body">
+                                            <p class="text text-white"><a href="https://smkwikrama.sch.id"><i class="lni lni-envelope text-white"></i> https://smkwikrama.sch.id/</a></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="contact-info d-flex">
+                                        <div class="info-content media-body">
+                                            <p class="text text-white"><i class="lni lni-map text-white"></i>  Jl. Raya Wangun Kelurahan Sindangsari Bogor Timur 16720</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright d-sm-flex justify-content-between">
+                            <div class="copyright-text text-center">
+                                <p class="text text-white text-align-center">SIM UKS | RPL 2023</p>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div> 
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+
+    <script type='text/javascript'>
+    //<![CDATA[
+    $(document).ready(function(){ 
+    var touch  = $('#resp-menu');
+    var menu  = $('.menu');
+    
+    $(touch).on('click', function(e) {
+    e.preventDefault();
+    menu.slideToggle();
+    });
+    
+    $(window).resize(function(){
+    var w = $(window).width();
+    if(w > 767 && menu.is(':hidden')) {
+    menu.removeAttr('style');
+    }
+    });
+    
+    });
+    //]]>
+
+</script>
+    <script src="../assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/jquery.easing.min.js"></script>
+    <script src="../assets/js/scrolling-nav.js"></script>
+    <script src="../assets/js/main.js"></script>
+    
+</body>
+
+</html>

@@ -984,6 +984,19 @@ p {
   padding: 45px 25px 35px;
   align-items: center; }
 
+  .card-berita {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
+  box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  padding: 45px 25px 35px;
+  align-items: center; }
+
 .single-services {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
   -moz-box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
@@ -1702,3 +1715,98 @@ a.homer {
 
 @media (max-width: 320px) {
 }
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+.input {
+	display: flex;
+	flex-direction: column-reverse;
+	position: relative;
+	padding-top: 1.5rem;
+}
+
+.card {
+  margin-top: -200px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 425px;
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px 0 rgba(#999, .25);
+}
+
+.card-image {
+	border-radius: 8px;
+	overflow: hidden;
+	padding-bottom: 65%;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position: 0 5%;
+	position: relative;
+}
+
+.card-form {
+	padding: 2rem 1rem 0;
+}
+
+.input {
+	display: flex;
+	flex-direction: column-reverse;
+	position: relative;
+	padding-top: 1.5rem;
+}
+
+.input-label {
+	color: #38424D;
+	position: absolute;
+	top: 1.5rem;
+	transition: .25s ease;
+}
+
+.input-field {
+	border: 0;
+	z-index: 1;
+	background-color: transparent;
+	border-bottom: 2px solid #eee; 
+	font: inherit;
+	font-size: 1.125rem;
+	padding: .25rem 0;
+}
+
+.action {
+	margin-top: 2rem;
+}
+
+.action-button {
+	font: inherit;
+	font-size: 1rem;
+	padding: 5px;
+	width: 50%;
+	font-weight: 100;
+	background-color: #019342;
+	border-radius: 6px;
+	color: #FFF;
+	border: 0;
+}
+
+.card-info {
+	padding: 1rem 1rem;
+	text-align: center;
+	font-size: .875rem;
+	color: #8597a3; }
+	
+.card-info a {
+		display: block;
+		color: #019342;
+		text-decoration: none;
+	}
+
+
+
+
+
