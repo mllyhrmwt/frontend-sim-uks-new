@@ -2,7 +2,7 @@ $(function () {
 
     "use strict";
 
-    //===== Prealoder
+    //= Prealoder
 
     $(window).on('load', function (event) {
         $('.preloader').delay(500).fadeOut(500);
@@ -10,7 +10,7 @@ $(function () {
 
 
 
-    //===== Sticky
+    //= Sticky
 
     $(window).on('scroll', function (event) {
         var scroll = $(window).scrollTop();
@@ -23,7 +23,7 @@ $(function () {
 
 
 
-    //===== Section Menu Active
+    //= Section Menu Active
 
     var scrollLink = $('.page-scroll');
     // Active link switching
@@ -42,7 +42,7 @@ $(function () {
     });
 
 
-    //===== close navbar-collapse when a  clicked
+    //= close navbar-collapse when a  clicked
 
     $(".navbar-nav a").on('click', function () {
         $(".navbar-collapse").removeClass("show");
@@ -59,7 +59,7 @@ $(function () {
 
 
 
-    //===== Back to top
+    //= Back to top
 
     // Show or hide the sticky footer button
     $(window).on('scroll', function (event) {
@@ -81,7 +81,7 @@ $(function () {
     });
 
 
-    //===== Svg
+    //= Svg
 
     jQuery('img.svg').each(function () {
         var $img = jQuery(this);
@@ -113,7 +113,7 @@ $(function () {
     });
 
 
-    //=====  WOW active
+    //=  WOW active
 
     new WOW().init();
 
